@@ -22,7 +22,6 @@ class Snippet(models.Model):
     class Meta:
         ordering = ('created',)
 
-
     def save(self, *args, **kwargs):
         ''' Use the `pygments` library to created highlighted HTML
         representation of code snippet.
