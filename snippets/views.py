@@ -40,7 +40,7 @@ class SnippetViewSet(viewsets.ModelViewSet):
 
 
 class UserViewSet(viewsets.ReadOnlyModelViewSet):
-    ''' This viewset automatically proides `list` and `detail` actions.
+    ''' This viewset automatically provides `list` and `detail` actions.
     '''
     queryset = User.objects.all()
     serializer_class = UserSerializer
