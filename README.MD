@@ -6,8 +6,11 @@ This REST API was built using:
 
 # Routes Available
 
-  / - API ROOT
-  /snippets - **list**, **create**, **retrieve**,**update** and **destroy** snippets
-  /users - **list** and **detail** users
+| Routes        | Actions           |
+| ------------- |:-------------:|
+| /      | API ROOT |
+| /snippets      | *list**, **create**, **retrieve**,**update** and **destroy** snippets       |
+| /users  | **list** and **detail** users     |
+
 
 Trough the project I used 'views' but then refactor to 'viewsets'
