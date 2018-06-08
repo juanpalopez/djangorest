@@ -9,7 +9,7 @@ This REST API was built using:
 | Routes        | Actions           |
 | ------------- |:-------------:|
 | /      | API ROOT |
-| /snippets      | *list**, **create**, **retrieve**,**update** and **destroy** snippets       |
+| /snippets      | **list**, **create**, **retrieve**,**update** and **destroy** snippets       |
 | /users  | **list** and **detail** users     |
 
 
